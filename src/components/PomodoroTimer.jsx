@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useTheme } from "../ContextTemp/ThemeContext";
+import { useTheme } from "../context/ThemeContext";
 import { cardClass } from "../utils/theme";
 
 function playBeep() {

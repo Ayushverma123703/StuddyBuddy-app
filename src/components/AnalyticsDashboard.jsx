@@ -1,5 +1,5 @@
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer, BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid } from "recharts";
-import { useTheme } from "../ContextTemp/ThemeContext";
+import { useTheme } from "../context/ThemeContext";
 import { cardClass } from "../utils/theme";
 
 const COLORS = ["#1c2541", "#c9972e", "#7d8597", "#a1683a", "#5c6b8a", "#d4a94a"];
