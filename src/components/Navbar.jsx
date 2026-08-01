@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "../firebase";
-import { useTheme } from "../context/ThemeContext";
+import { useTheme } from "../ContextTemp/ThemeContext";
 
 function Navbar() {
     const { theme, toggleTheme } = useTheme();
