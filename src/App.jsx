@@ -10,7 +10,7 @@ import TimerPage from "./pages/TimerPage";
 import SessionsPage from "./pages/SessionsPage";
 import AnalyticsPage from "./pages/AnalyticsPage";
 import useToast from "./hooks/useToast";
-import { useTheme } from "./context/ThemeContext";
+import { useTheme } from "./Context/ThemeContext";
 import { pageClass } from "./utils/theme";
 
 function App() {
